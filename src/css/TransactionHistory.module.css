@@ -1,0 +1,27 @@
+table {
+  margin: 10px;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px;
+}
+
+th {
+  background-color: darkcyan;
+}
+
+th,
+td {
+  width: 100px;
+
+  &:first-child {
+    text-align: right;
+  }
+
+  &:not(:first-child) {
+    text-align: center;
+  }
+}
