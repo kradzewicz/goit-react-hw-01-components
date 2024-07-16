@@ -1,5 +1,5 @@
-import css from '../css/Friends.module.css';
 import PropTypes from 'prop-types';
+import css from '../css/Friends.module.css';
 import friends from '../data/friends.json';
 
 export const Friends = () => {
