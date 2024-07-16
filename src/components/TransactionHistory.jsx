@@ -6,7 +6,7 @@ export const Transactions = () => {
   return (
     <div>
       <table>
-        <thead>
+        <thead className={css.transTable}>
           <tr>
             <th>Type</th>
             <th>Amount</th>

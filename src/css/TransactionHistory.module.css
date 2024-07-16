@@ -1,20 +1,12 @@
-table {
-  margin: 10px;
-}
-table,
-th,
-td {
-  border: 1px solid black;
-  border-collapse: collapse;
-  padding: 5px;
-}
-
 th {
   background-color: darkcyan;
 }
 
 th,
 td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px;
   width: 100px;
 
   &:first-child {
@@ -24,4 +16,11 @@ td {
   &:not(:first-child) {
     text-align: center;
   }
+}
+
+.transTable {
+  margin: 10px;
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px;
 }
