@@ -5,8 +5,8 @@ import items from '../data/transactions.json';
 export const Transactions = () => {
   return (
     <div>
-      <table>
-        <thead className={css.transTable}>
+      <table className={css.transTable}>
+        <thead>
           <tr>
             <th>Type</th>
             <th>Amount</th>
